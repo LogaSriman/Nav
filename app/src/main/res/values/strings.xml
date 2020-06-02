@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_suggestions">Media Suggestions</string>
+    <string name="menu_share">Share</string>
+
+    <string name="home_second">Home Second</string>
+    <string-array name="person_list">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string-array name="gender_list">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="enter_email_id">Enter email id</string>
+    <string name="age">Age</string>
+    <string name="email_id">Email ID</string>
+    <string name="enter_details">Enter details</string>
+    <string name="address">Address</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="password">Password</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="submit">Submit</string>
+    <string name="enter_password">Enter password</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="todo">TODO</string>
+    <string name="signup_here">Signup here</string>
+    <string name="registration_page">Registration Page</string>
+    <string name="gender">Gender</string>
+    <string name="assess">Assess</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="welcome">Welcome</string>
+    <string name="select_gender" />
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="view">View</string>
+    <string name="apple">Apple</string>
+
+</resources>

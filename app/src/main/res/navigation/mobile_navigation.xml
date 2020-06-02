@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.nav.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.nav.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_suggestions"
+        android:name="com.example.nav.ui.suggestions.SuggestionsFragment"
+        android:label="@string/menu_suggestions"
+        tools:layout="@layout/fragment_suggestions" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.nav.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/nav_add_dependents"
+        android:name="com.example.nav.ui.bottomnavfragments.AddDependentsFragment"
+        android:label="Add Dependents"
+        tools:layout="@layout/fragment_add_dependents" />
+    <fragment
+        android:id="@+id/nav_upload_reports"
+        android:name="com.example.nav.ui.bottomnavfragments.UploadReportsFragment"
+        android:label="Upload Reports"
+        tools:layout="@layout/fragment_upload_reports" />
+    <fragment
+        android:id="@+id/nav_assess_profile"
+        android:name="com.example.nav.ui.bottomnavfragments.AssessProfileFragment"
+        android:label="Assess Profile"
+        tools:layout="@layout/fragment_assess_profile" />
+</navigation>

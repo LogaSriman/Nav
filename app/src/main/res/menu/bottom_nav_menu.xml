@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_add_dependents"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="Add Dependents" />
+    <item
+        android:id="@+id/nav_upload_reports"
+        android:icon="@drawable/ic_cloud_upload_black_24dp"
+        android:title="Upload Reports" />
+    <item
+        android:id="@+id/nav_assess_profile"
+        android:icon="@drawable/ic_assessment_black_24dp"
+        android:title="Assess Profile" />
+</menu>
